@@ -1,13 +1,98 @@
 body {
-    font-family: Arial;
-    margin: 20px;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #243247;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navegacion,
+header,
+main,
+footer {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navegacion {
+    padding: 20px 0;
+    text-align: right;
+}
+
+.nombre {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 header {
+    padding: 40px 0;
     text-align: center;
 }
 
-img {
-    width: 400px;
-    height: 360px;
+h1 {
+    font-size: 38px;
+}
+
+h1 span,
+a {
+    color: #245bb8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.etiqueta {
+    color: #267983;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 12px 20px;
+    background-color: #245bb8;
+    color: white;
+    border-radius: 8px;
+}
+
+.imagen-portada {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 25px auto;
+    border-radius: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.sobre-mi,
+.proyecto {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dce2eb;
+    border-radius: 12px;
+}
+
+.tecnologias span {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #edf3fc;
+    color: #245bb8;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #dce2eb;
+    text-align: center;
 }

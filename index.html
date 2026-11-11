@@ -4,53 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Saúl, estudiante de Desarrollo de Aplicaciones Web.">
-    <title>Saúl | Portfolio de desarrollo web</title>
+    <title>Saúl | Desarrollo web</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Saúl | Desarrollo de Aplicaciones Web</h1>
-        <p>Estudiante de segundo curso de Desarrollo de Aplicaciones Web (DAW).</p>
-        <p>
-            Este portfolio reúne los proyectos y las prácticas que realizo
-            durante mi formación.
-        </p>
-        <img src="img/portada.png" alt="Ilustración de un espacio de desarrollo web" width="600">
+    <nav class="navegacion">
+        <a class="nombre" href="#">Saúl<span>.</span></a>
+        <a href="https://github.com/Saulrvdaw1">Mi GitHub ↗</a>
+    </nav>
+
+    <header class="portada">
+        <div class="presentacion">
+            <p class="etiqueta">PORTFOLIO PERSONAL</p>
+            <h1>Hola, soy Saúl.<br><span>Desarrollo web.</span></h1>
+            <p class="descripcion">
+                Estudiante de segundo curso de Desarrollo de Aplicaciones Web.
+                Aprendiendo a transformar ideas en aplicaciones.
+            </p>
+            <a class="boton" href="#proyectos">Explorar mis proyectos →</a>
+        </div>
+
+        <img
+            class="imagen-portada"
+            src="img/Portafolio%20web%20de%20Sa%C3%BAl.png"
+            alt="Ilustración de un espacio de trabajo de desarrollo web"
+        >
     </header>
 
     <main>
-        <section>
-            <h2>Sobre mí</h2>
+        <section class="sobre-mi" id="sobre-mi">
+            <p class="etiqueta">SOBRE MÍ</p>
+            <h2>Aprender, practicar y crear.</h2>
             <p>
                 Me interesa la programación y el desarrollo de aplicaciones web.
-                Mi objetivo es seguir aprendiendo y aplicar mis conocimientos
-                en proyectos prácticos.
+                Este espacio reúne los proyectos y las prácticas que realizo
+                durante mi formación, donde aplico lo aprendido y sigo
+                mejorando mis habilidades.
             </p>
         </section>
 
-        <section>
-            <h2>Mis proyectos</h2>
-            <ul>
-                <li>
-                    <h3>Portfolio con Git y GitHub</h3>
-                    <p>
-                        Proyecto académico para practicar el control de versiones
-                        con Git y la gestión de repositorios en GitHub.
-                    </p>
-                    <a href="https://github.com/Saulrvdaw1/daw2-git-portfolio">
-                        Ver repositorio del proyecto
-                    </a>
-                </li>
-            </ul>
+        <section id="proyectos">
+            <p class="etiqueta">MI TRABAJO</p>
+            <h2>Proyectos</h2>
+
+            <article class="proyecto">
+                <div class="tecnologias">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Git</span>
+                </div>
+                <h3>Portfolio con Git y GitHub</h3>
+                <p>
+                    Proyecto académico para practicar el control de versiones
+                    con Git y la publicación de una página web con GitHub Pages.
+                </p>
+                <a href="https://github.com/Saulrvdaw1/daw2-git-portfolio">
+                    Ver repositorio ↗
+                </a>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>
-            <a href="https://github.com/Saulrvdaw1">
-                Visita mi perfil de GitHub
-            </a>
-        </p>
+        <p>Saúl · Portfolio de desarrollo web</p>
+        <a href="https://github.com/Saulrvdaw1">GitHub ↗</a>
     </footer>
 </body>
 </html>
